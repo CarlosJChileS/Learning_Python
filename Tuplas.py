@@ -31,3 +31,29 @@ niveles_lista=list(niveles)
 
 print(niveles_lista)
 print(type(niveles_lista))
+
+#PART 2
+#DESCOMPRIMIR
+
+numeros= (1, 2, 3, 4, 5, 6, 7, 8)
+uno, dos, tres, cuatro, *resto_valores = numeros
+#el aterisco denota lista *
+# _ omitir lista
+print(uno)
+print(dos)
+print(tres)
+print(cuatro)
+print(resto_valores)
+
+#PART 3 COMPRIMIR
+lista = [1, 2, 3, 4, 5]
+
+tupla = (10, 20, 30, 40, 50)
+
+lista2 = [100, 200, 300, 400, 500]
+resultado = zip(lista, tupla,lista2)# zip
+print(resultado)
+
+resultado = tupla(resultado)
+print(resultado)
+
