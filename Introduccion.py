@@ -1,4 +1,4 @@
-
+#Variables part 1
 #Se utiliza el # para comentar  cuando es una linea
 """
 se utiliza mas cuando son varias lineas
@@ -54,3 +54,37 @@ numero_dos =20
 
 resulto = numero_uno == numero_dos
 print(resulto)
+
+#CONSTANTES PART 2
+
+nombre_completo = input("Ingresa tu nombre completo: ")
+
+print(nombre_completo)
+print(type(nombre_completo))
+
+edad = int(input('Ingresa tu edad:'))
+
+
+altura =float(input("ingrese tu altura"))
+
+print(edad)
+print(type(edad))
+
+autorizacion = input("autorizas el programa(si/no)" ) == 'si'
+
+print(autorizacion)
+
+#PART 3
+#OPERADORES LOGICOS
+numero_uno =10
+numero_dos =20
+
+#and, or y not
+#true and False
+
+resultado_numeros= numero_uno > numero_dos
+
+print(resultado_numeros)
+
+#PART 4
+#
