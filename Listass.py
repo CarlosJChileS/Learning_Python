@@ -1,3 +1,5 @@
+
+#PART 1
 #nos permiten manejar grandes datos
 lista = list()
 lista2= []
@@ -49,3 +51,40 @@ print(lista_cursos)
 lista_cursos.clear()
 #la lista va a quedar vacia
 
+#PART 2
+#MODIFICAR LISTAS
+lista = [8, 90, 1 ,5, 44, 132, 600, 3, 4]
+
+lista.sort()
+#ordenar lista de menor a mayor
+
+print(lista)
+
+lista.sort(reverse=True)
+#ordenar de mayor a menor
+print(lista)
+
+#min - max
+print(min(lista))
+print(max(lista))
+
+#para ver si se encuentra o no en la lista
+10 in lista
+
+print(5 in lista)
+print(11 not in lista)
+#para conocer el indice donde se encuentra el elemento
+#retorna solo el primer indice
+index= lista.index(5)
+print(index)
+
+#PART 3
+#MATRICES
+
+columna_a = [10,20,30,40]
+columna_b = [30,40,50,60]
+
+matriz = [columna_a, columna_b] #es una matriz 2 x 4
+
+print(matriz)
+print(matriz[0][0])# para elegir el valor especifico
