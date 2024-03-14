@@ -50,3 +50,58 @@ apellido= 'Chile'
 print(nombre_completo)
 
 """
+
+#PART 3
+#Fstring
+nombre= 'Carlos Junior'
+apellido = 'Chile'
+
+
+
+nombre_completo = f'Mr. {nombre} {apellido} {"perez"}'
+
+print(nombre_completo)
+
+#print
+print(nombre, apellido, 'Silva', sep= '-')
+#sep se usa para separar
+
+#PART 4
+#SUBSTRING
+titulo = 'curso python'
+
+
+#PARA CONOCER STRINGS
+"""contador= titulo.count('python')
+#count cuenta los string
+
+print(contador)"""
+
+
+"""print('python' in titulo.lower())
+#in retornara un valor verdadero o falso
+
+print('Carlos' not in titulo.lower())
+#para negar
+
+
+"""
+print(titulo.startswith('curso'))
+#startswith para ver si se encuentra al inicio
+#endswith para ver si esta al final
+
+#PART 5
+#JUSTIFICAR TEXTO
+mensaje = 'hola mundo'
+
+#ljust justificar a la izquierda
+#rjust justificar a la derecha
+#center centrar
+
+mensaje = mensaje.ljust(20)
+#en el () es cuantos espacios se anade
+
+mensaje =mensaje.rjust(20)
+#mensaje  = mensaje.center(20)
+#en center es 10 espacios a la izquierda y 10 a la derecha
+print((mensaje,','))
